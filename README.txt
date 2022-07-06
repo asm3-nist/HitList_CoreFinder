@@ -14,7 +14,6 @@ Quick Start:
 4. Run "main.R" in your R console (R, Rstudio, etc.)
 
 
-
 External Packages Details.
 
 For most external packages, they can be installed using a command as follows:
