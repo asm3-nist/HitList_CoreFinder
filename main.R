@@ -105,6 +105,8 @@ for(j in 1:numEpsilons){
      cat(paste0("Overlap coefficient: ",round(keyMCSstat,3)," \n"))
      keyMCSstat = stats(keyMCS)[4];
      cat(paste0("Tanimoto coefficient: ",round(keyMCSstat,3)," \n"))
+     cid(core) <- "core"
+     cid(query) <- "query"
      plot(c(core,query))
    }
    
